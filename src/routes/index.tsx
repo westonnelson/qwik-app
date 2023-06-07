@@ -17,8 +17,7 @@ export default component$(() => {
 
       <div class="container container-center container-spacing-xl">
         <h3>
-          You can <span class="highlight">count</span>
-          <br /> on me
+          NFTEarth - have fun playing with this counter component below!
         </h3>
         <Counter />
       </div>
@@ -26,40 +25,35 @@ export default component$(() => {
       <div class="container container-flex">
         <Infobox>
           <div q:slot="title" class="icon icon-cli">
-            CLI Commands
+            NFT Games, NFTFi, Marketplace
           </div>
           <>
             <p>
-              <code>npm run dev</code>
+              <code>Staking</code>
               <br />
-              Starts the development server and watches for changes
+              Earn Rewards for supporting the protocol
             </p>
             <p>
-              <code>npm run preview</code>
+              <code>Gaming</code>
               <br />
-              Creates production build and starts a server to preview it
+              Have fun using web3 on Layer2, where costs are low!
             </p>
             <p>
-              <code>npm run build</code>
+              <code>Rev Share</code>
               <br />
-              Creates production build
+              NFTEarth is the only DAO with both a flagship NFT - the Earthling and a native token, $NFTE - both of which make up the heart of our Rev Share program
             </p>
-            <p>
-              <code>npm run qwik add</code>
-              <br />
-              Runs the qwik CLI to add integrations
-            </p>
+
           </>
         </Infobox>
 
         <div>
           <Infobox>
             <div q:slot="title" class="icon icon-apps">
-              Example Apps
+              Live Apps
             </div>
             <p>
-              Have a look at the <a href="/demo/flower">Flower App</a> or the{' '}
-              <a href="/demo/todolist">Todo App</a>.
+              Have a look at the <a href="https://nftearth.exchange">Marketplace</a>
             </p>
           </Infobox>
 
@@ -70,30 +64,24 @@ export default component$(() => {
             <ul>
               <li>
                 <span>Questions or just want to say hi? </span>
-                <a href="https://qwik.builder.io/chat" target="_blank">
-                  Chat on discord!
+                <a href="https://discord.gg/nftearth" target="_blank">
+                  Join us in discord!
                 </a>
               </li>
               <li>
                 <span>Follow </span>
-                <a href="https://twitter.com/QwikDev" target="_blank">
-                  @QwikDev
+                <a href="https://twitter.com/NFTEarth_L2" target="_blank">
+                  @NFTEarth_L2
                 </a>
                 <span> on Twitter</span>
               </li>
               <li>
-                <span>Open issues and contribute on </span>
-                <a href="https://github.com/BuilderIO/qwik" target="_blank">
+                <span>Check out our source code or contribute on </span>
+                <a href="https://github.com/NFTEarth_L2" target="_blank">
                   GitHub
                 </a>
               </li>
-              <li>
-                <span>Watch </span>
-                <a href="https://qwik.builder.io/media/" target="_blank">
-                  Presentations, Podcasts, Videos, etc.
-                </a>
-              </li>
-            </ul>
+              </ul>
           </Infobox>
         </div>
       </div>
@@ -102,11 +90,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Welcome to NFTEarth Rev Share',
   meta: [
     {
       name: 'description',
-      content: 'Qwik site description',
+      content: 'NFTEarth Rev Share',
     },
   ],
 };

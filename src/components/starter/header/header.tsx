@@ -13,18 +13,18 @@ export default component$(() => {
         </div>
         <ul>
           <li>
-            <a href="https://qwik.builder.io/docs/components/overview/" target="_blank">
+            <a href="https://stake.nftearth.exchange" target="_blank">
+              Stake Earthling
+            </a>
+          </li>
+          <li>
+            <a href="https://docs.nftearth.exchange" target="_blank">
               Docs
             </a>
           </li>
           <li>
-            <a href="https://qwik.builder.io/examples/introduction/hello-world/" target="_blank">
-              Examples
-            </a>
-          </li>
-          <li>
-            <a href="https://qwik.builder.io/tutorial/welcome/overview/" target="_blank">
-              Tutorials
+            <a href="https://nftearth.exchange" target="_blank">
+              Marketplace
             </a>
           </li>
         </ul>

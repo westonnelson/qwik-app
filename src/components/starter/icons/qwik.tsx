@@ -1,4 +1,4 @@
-export const QwikLogo = ({ width = 100, height = 35 }: { width?: number; height?: number }) => (
+export const QwikLogo = ({ width = 5, height = 5 }: { width?: number; height?: number }) => (
   <svg
     width={width}
     height={height}
@@ -36,3 +36,5 @@ export const QwikLogo = ({ width = 100, height = 35 }: { width?: number; height?
     />
   </svg>
 );
+
+
